@@ -22,8 +22,9 @@
 // console.log(a+b);
 
 
-// let a 
-// a = true;
-// console.log(a);
+let a 
+a = true;
+console.log(a);
+
 
 
