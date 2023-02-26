@@ -36,3 +36,7 @@ const objectA = {
 const copyOfA = objectA;
 copyOfA.a = 20;
 console.log(objectA);
+
+// Добавление новых значений 
+copyOfA.c = 'abc'
+console.log(objectA);
