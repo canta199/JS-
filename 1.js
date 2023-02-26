@@ -51,3 +51,4 @@ const myContact = {
 const addingContact = myContact;
 addingContact.phone = '+13253231';
 console.log(myContact);
+// сылочный тип - !ОБЬЕКТ! object
