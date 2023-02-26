@@ -29,14 +29,25 @@
 
 // ссылочный тип (ссылка и обьект находятся в разных местах)
 // 
-const objectA = {
-  a:10,
-  b:true
-}
-const copyOfA = objectA;
-copyOfA.a = 20;
-console.log(objectA);
+// const objectA = {
+//   a:10,
+//   b:true
+// }
+// const copyOfA = objectA;
+// copyOfA.a = 20;
+// console.log(objectA);
 
-// Добавление новых значений 
-copyOfA.c = 'abc'
-console.log(objectA);
+// // Добавление новых значений 
+// copyOfA.c = 'abc'
+// console.log(objectA);
+
+
+// Практика создание ссылочного типа и добавление значений
+
+const myContact = {
+  Name:'Maksim',
+  mail:"@gmail.com"
+}
+const addingContact = myContact;
+addingContact.phone = '+13253231';
+console.log(myContact);
