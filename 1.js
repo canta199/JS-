@@ -16,15 +16,23 @@
 // Примитивные типа  ('String'-- строка)  ('boolean'-- логический) ("number" -- число) ('null' --null) ('undefined' -- значение не определенно) ('symbol' -- символ)
 // null - присваевается нами и, позже может быть определенно, в отличии от undefined
 // 
-let a=5
-let b=5
-b=50
-console.log(a+b);
+// let a=5
+// let b=5
+// b=50
+// console.log(a+b);
 
 
-let a 
-a = true;
-console.log(a);
+// let a 
+// a = true;
+// console.log(a);
 
 
-
+// ссылочный тип (ссылка и обьект находятся в разных местах)
+// 
+const objectA = {
+  a:10,
+  b:true
+}
+const copyOfA = objectA;
+copyOfA.a = 20;
+console.log(objectA);
