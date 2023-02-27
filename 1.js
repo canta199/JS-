@@ -15,3 +15,14 @@ const myName = {
 }
 delete myName.lastName;
 console.log(myName);
+
+
+// Доступ к значению свойства с использованием скобок
+const myGames = {
+  Games:'WOT'
+}
+// bracket notation
+myGames ['lastGames'] = 'Rainbow six edge';
+  const GameDevoloper = 'GameDev';
+  myGames [GameDevoloper] = 'Ubisoft'
+console.log(myGames)
