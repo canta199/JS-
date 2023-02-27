@@ -44,10 +44,32 @@
 
 // Практика создание ссылочного типа и добавление значений
 
-const myContact = {
-  Name:'Maksim',
-  mail:"@gmail.com"
-}
-const addingContact = myContact;
-addingContact.phone = '+13253231';
-console.log(myContact);
+            // const myContact = {
+            //   Name:'Maksim',
+            //   mail:"@gmail.com"
+            // }
+            // const addingContact = myContact;
+            // addingContact.phone = '+13253231';
+            // console.log(myContact);
+// сылочный тип - !ОБЬЕКТ! object
+//end of reference type parsing
+
+
+// dynamic typing
+
+        // let a = 10
+        // a = true
+        // a = 'maks'
+
+                      // function a() {
+                      //   console.log('hey there');
+                      // }
+                      // a()
+        
+        // Используем Const 
+        // позволяет предотвратить возможные проблемы связанные с динамической типизации
+        // стрелочное обьявление перменной  =>
+        const a =() => {
+          console.log('hey,there')
+        }
+        a()
